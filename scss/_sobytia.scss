@@ -1,0 +1,17 @@
+
+
+.events__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 38px;
+}
+
+.in-place {
+    &.last {
+        padding-bottom: 80px;
+        border: none;
+        outline: none;
+    }
+}
+

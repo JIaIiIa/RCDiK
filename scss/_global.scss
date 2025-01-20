@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gerbera';
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 65.33px;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Gerbera;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -2.667px;
+}
+
+h2 {
+    color: #32373C;
+    font-family: Gerbera;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -1.2px;
+}
+
+h3 {
+    color: #FFF;
+    font-family: Gerbera;
+    font-size: 34.667px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -1.333px;
+}
+
+h4 {
+    color: #000;
+    font-family: Gerbera;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.667px;
+    letter-spacing: -1.333px;
+}
+
+.more-btn {
+    width: 305.12px;
+    height: 61.3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #AF8C64;
+    color: #FFF;
+    font-family: Verdana;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.76px;
+}
+
+.top-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filtres-main {
+    display: flex;
+    align-items: center;
+    gap: 27.33px;
+    position: relative;
+}
+
+.padding {
+    padding: 26.5px 0;
+}
+
+.filtres-main__text {
+    color: #32373C;
+    font-family: Gerbera;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.76px;
+}
+
+.filtres-main__btn {
+    color: #AF8C64;
+    font-family: Gerbera;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.76px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.text-style {
+    color: #32373C;
+    font-family: Gerbera;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.76px;
+
+    & span {
+        color: #AF8C64;
+    }
+
+}
+
+.text-style-link {
+    color: #AF8C64;
+    font-family: Gerbera;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.76px;
+    transition: all .6s ease;
+    position: relative;
+    width: max-content;
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        transition: all .3s ease;
+        width: 0;
+        height: 2px;
+        background-color: #AF8C64;
+    }
+
+    &:hover::before {
+        width: 100%;
+    }
+}
+
+.text-style-title {
+    color: #32373C;
+    font-family: Gerbera;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.76px;
+}
+
+.text-container {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.main-date {
+    color: #FFF;
+    font-family: "William Subhead Pro Reg";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66.667px;
+    letter-spacing: -2.667px;
+}
+
+.navigation-swiper {
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 23.5px;
+
+    & button {
+        cursor: pointer;
+        transition: all .3s ease;
+        border: none;
+        background-color: transparent;
+    }
+
+    & .swiper-button-disabled {
+        opacity: 0.3;
+        cursor: unset;
+    }
+
+    & .swiper-pagination {
+        color: #32373C;
+        font-family: Cabin;
+        font-size: 25.333px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        position: relative;
+        bottom: unset;
+    }
+}
+
+.promo__btn {
+    width: 299px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #32373C;
+    font-family: Gerbera;
+    font-size: 30.667px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29.333px;
+    letter-spacing: -2.667px;
+    border: 1.333px solid #CFA86F;
+    transition: all .3s ease;
+
+    &:hover {
+        background-color: #CFA86F;
+        color: #FFF;
+    }
+}
+
+.btn-style {
+    border: 1.333px solid #AF8C64;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #32373C;
+    text-align: center;
+    font-family: Gerbera;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29.333px;
+    letter-spacing: -2.667px;
+    transition: all .3s ease;
+
+    &:hover {
+        background-color: #AF8C64;
+        color: #FFF;
+    }
+}
+
+.text-content {
+    .text-content__text {
+        padding-top: 25px;
+        padding-bottom: 100px;
+    }
+
+    & p {
+        color: #32373C;
+        font-family: Gerbera;
+        font-size: 25.333px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.76px;
+
+        & b {
+            font-weight: 500;
+        }
+
+        & a {
+            color: #AF8C64;
+        }
+
+        & span {
+            color: #AF8C64;
+        }
+
+        & ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+    }
+
+    & ul {
+        padding-left: 45px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        & li {
+            list-style: disc;
+            color: #32373C;
+            font-family: Gerbera;
+            font-size: 25.333px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px;
+            letter-spacing: -0.76px;
+
+            & a {
+                color: #AF8C64;
+            }
+
+            & span {
+                color: #AF8C64;
+            }
+        }
+    }
+}

@@ -1,0 +1,149 @@
+.place__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    padding-bottom: 58.66px;
+}
+
+.place__info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.place__info-left {
+    display: flex;
+    gap: 66px;
+}
+
+
+.place__img {
+    width: 100%;
+    aspect-ratio: 1786/1085;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.place__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.place__info-list {
+    display: flex;
+    flex-direction: column;
+
+    &.gap {
+        gap: 20px;
+    }
+}
+
+
+.place__info-title {
+    color: #32373C;
+    font-family: Gerbera;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.76px;
+}
+
+.place__info-text {
+    color: #32373C;
+    font-family: Gerbera;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.76px;
+
+    & span {
+        color: #AF8C64;
+    }
+
+    & a {
+        color: #AF8C64;
+        font-family: Gerbera;
+        font-size: 25.333px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: -0.76px;
+    }
+}
+
+.place__info-link {
+    color: #AF8C64;
+    font-family: Gerbera;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.76px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.in-place {
+
+    &__inner {
+        border-bottom: 1px solid #32373C;
+        border-top: 1px solid #32373C;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+
+
+.get-there__inner {
+    padding: 58.66px 0;
+    padding-bottom: 99px;
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.get-there__subtitle {
+    padding-bottom: 20px;
+    color: #32373C;
+    font-family: Gerbera;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.76px;
+}
+
+.get-there__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-basis: 912px;
+    max-width: 912px;
+}
+
+.get-there__map {
+    flex-basis: 814.6px;
+    aspect-ratio: 815/605;
+    max-width: 814.6px;
+    max-height: 605px;
+    border-radius: 22.667px;
+    background: url(<path-to-image>) lightgray -0.207px 0px / 121.418% 100% no-repeat;
+    overflow: hidden;
+
+    & iframe {
+        width: 100%;
+        height: 100%;
+    }
+}

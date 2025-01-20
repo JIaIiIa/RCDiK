@@ -1,0 +1,108 @@
+.send {
+    form {
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        padding: 0 125px;
+        padding-top: 37px;
+        padding-bottom: 17.77px;
+        border-top: 1px solid ;
+
+        button {
+            color: #32373C;
+            text-align: center;
+            font-family: Gerbera;
+            font-size: 44.446px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 42.513px;
+            letter-spacing: -3.865px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 410px;
+            height: 68px;
+            background: transparent;
+            border: 1.932px solid #CFA86F;
+            align-self: center;
+            transition: all .3s ease;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #CFA86F;
+                color: #fff;
+            }
+        }
+    }
+
+    .custom-checkbox {
+        width: 30px;
+        height: 30px;
+        border-radius: 4.647px;
+        border: 1.549px solid #32373C;
+    }
+
+    .checkbox-text {
+        color: #32373C;
+        font-family: Gerbera;
+        font-size: 17.039px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26.333px;
+        letter-spacing: -1.549px;
+        max-width: unset;
+    }
+
+    .custom-checkbox:hover {
+        border-color: #999;
+    }
+
+    .hidden-checkbox:checked+.custom-checkbox {
+        background-color: transparent;
+        border-color: #007bff;
+    }
+
+    .hidden-checkbox:checked+.custom-checkbox::after {
+        content: "";
+        width: 11px;
+        height: 17px;
+        border-right: 2px solid #32373c;
+        border-bottom: 2px solid #32373c;
+        position: absolute;
+        top: 1px;
+        left: 7px;
+        transform: rotate(45deg);
+    }
+}
+
+.send__inner {
+    border-radius: 8.696px;
+    border: 2.174px solid #AF8C64;
+    margin-bottom: 100px;
+}
+
+.send__title {
+    color: #32373C;
+    text-align: center;
+    font-family: Gerbera;
+    font-size: 43.479px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 55px 0;
+}
+
+.send__input {
+    color: #AF8C64;
+    font-family: Gerbera;
+    font-size: 27.537px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #32373C;
+    padding-bottom: 17.66px;
+}

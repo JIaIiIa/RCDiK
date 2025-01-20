@@ -1,0 +1,100 @@
+.path {
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 100px;
+
+        .path__wrapper {
+            display: flex;
+            justify-content: space-between;
+            gap: 45px;
+        }
+
+        .path__questions {
+            flex: 1;
+            flex-basis: 452px;
+            max-width: 452px;
+        }
+
+        .path__answers {
+            flex: 1;
+            flex-basis: 1244px;
+            max-width: 1244px;
+        }
+
+        .path__questions-item {
+            color: #32373C;
+            font-family: Gerbera;
+            font-size: 25.333px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px;
+            letter-spacing: -0.76px;
+            display: flex;
+            align-items: center;
+            gap: 16.59px;
+            padding-bottom: 20.56px;
+            border-bottom: 1px solid #32373C;
+
+            &:last-child {
+                border: none;
+            }
+
+            &.active {
+                color: #AF8C64;
+            }
+
+            &.active svg {
+                transform: rotate(-90deg);
+
+            }
+
+            &.active svg path {
+                fill: #AF8C64;
+            }
+        }
+
+        .path__answers-item.map {
+            border-radius: 22.667px;
+            background: url(<path-to-image>) lightgray -0.316px -161.202px / 121.418% 146.721% no-repeat;
+            overflow: hidden;
+            margin-right: 35px;
+
+            & iframe {
+                width: 100%;
+            }
+        }
+
+        .path__answers-title {
+            color: #32373C;
+            font-family: Gerbera;
+            font-size: 25.333px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 36px;
+            letter-spacing: -0.76px;
+        }
+
+        .path__answers-text {
+            color: #32373C;
+            font-family: Gerbera;
+            font-size: 25.333px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px;
+            letter-spacing: -0.76px;
+        }
+
+        .path__answers-item {
+            display: none;
+            flex-direction: column;
+            gap: 45px;
+
+            &.active {
+                display: flex;
+            }
+        }
+
+    }
+}

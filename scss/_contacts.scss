@@ -1,0 +1,117 @@
+.contacts-main__inner {
+    padding-bottom: 68.8px;
+    border-bottom: 1px solid #32373C;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts-main__info-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-main__info-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+    flex-basis: 900px;
+}
+
+.contacts-main__links-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-main {
+    
+    .place__info-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        align-self: flex-end;
+    }
+}
+
+
+
+.place__info-title {
+    color: #32373C;
+    font-family: Gerbera;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.76px;
+}
+
+.place__info-text {
+    color: #32373C;
+    font-family: Gerbera;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.76px;
+
+    & span {
+        color: #AF8C64;
+    }
+
+    & a {
+        color: #AF8C64;
+        font-family: Gerbera;
+        font-size: 25.333px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: -0.76px;
+    }
+}
+
+.place__info-link {
+    color: #AF8C64;
+    font-family: Gerbera;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.76px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.second-contacts__inner {
+    padding: 58.7px 0;
+
+}
+
+.contacts-main__info-teachers {
+    padding-top: 60px;
+}
+
+.contacts-main__info-teachers-list {
+    padding-top: 20px;
+    padding-left: 25px;
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.contacts-main__info-teachers-item {
+    color: #32373C;
+    font-family: Gerbera;
+    font-size: 25.333px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.76px;
+    
+
+    & p {
+        margin-left: -25px;
+    }
+}

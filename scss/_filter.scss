@@ -1,0 +1,35 @@
+.filtres-section {
+
+    h4 {
+        font-weight: 700;
+    }
+
+    .filtres-main {
+        gap: 10px;
+    }
+}
+
+.filtres-section__inner {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+
+
+.flatpickr-prev-month,
+.flatpickr-next-month {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    transition: all .3s ease;
+
+    &:hover {
+        background-color: #A98C57;
+    }
+}
+
+.flatpickr-day.today {
+    background-color: #A98C57;
+}

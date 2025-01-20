@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Gerbera';
+    src: url('Gerbera.woff2') format('woff2'),
+        url('Gerbera.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gerbera';
+    src: url('Gerbera-Black.woff2') format('woff2'),
+        url('Gerbera-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gerbera';
+    src: url('Gerbera-Bold.woff2') format('woff2'),
+        url('Gerbera-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gerbera';
+    src: url('Gerbera-Light.woff2') format('woff2'),
+        url('Gerbera-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gerbera';
+    src: url('Gerbera-Medium.woff2') format('woff2'),
+        url('Gerbera-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

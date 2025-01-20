@@ -1,0 +1,58 @@
+.terms {
+
+    &__inner {
+        padding-bottom: 101px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .museum-info__title {
+        padding-bottom: 20px
+    }
+
+    h3 {
+        color: #32373C;
+        font-weight: 500;
+    }
+
+    & p {
+        color: #32373C;
+        font-family: Gerbera;
+        font-size: 25.333px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.76px;
+    }
+
+    & p span {
+        font-weight: 500;
+    }
+
+    & p a {
+        color: #AF8C64;
+        font-family: Gerbera;
+        font-size: 25.333px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.76px;
+    }
+
+    .terms__list {
+        list-style-type: disc;
+        padding: 40px 0;
+        padding-left: 35px;
+
+        & li {
+            color: #32373C;
+            font-family: Gerbera;
+            font-size: 25.333px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px;
+            letter-spacing: -0.76px;
+        }
+    }
+}
